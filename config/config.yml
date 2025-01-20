@@ -8,7 +8,7 @@ sonarr:
     api_key: !secret SONARR_API_KEY
 
     include:
-      - template: dca7e5e9e99c703bcbdaaa471dd40e98 # [German] HD Bluray + Web
+      - template: dca7e5e9e99c703bcbdaaa471dd40e98 # [German] HD Bluray + WEB
         source: TRASH
 
     cloneQualityProfiles:
