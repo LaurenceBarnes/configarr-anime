@@ -1,0 +1,20 @@
+{
+  "trash_id": "anime-gersub",
+  "trash_scores": {
+    "default": 20
+  },
+  "trash_description": "Anime with German Subtitles",
+  "name": "Anime: German Sub",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "GerSub",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(German|Ger|Jap)(\\.|-|_| |)(Ger|Jap|)(\\.|-|_| |)Sub"
+      }
+    }
+  ]
+}

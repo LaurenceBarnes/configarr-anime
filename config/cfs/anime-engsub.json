@@ -1,0 +1,20 @@
+{
+  "trash_id": "anime-engsub",
+  "trash_scores": {
+    "default": 10
+  },
+  "trash_description": "Anime with English Subtitles",
+  "name": "Anime: English Sub",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "EngSub",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(English|Eng|Jap)(\\.|-|_| |)(Eng|Jap|)(\\.|-|_| |)Sub"
+      }
+    }
+  ]
+}

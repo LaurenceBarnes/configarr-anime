@@ -1,0 +1,47 @@
+{
+  "trash_id": "german-anime-groups",
+  "trash_scores": {
+    "default": 3000
+  },
+  "trash_description": "German anime groups which aren't yet in Trash Guides",
+  "name": "German Anime Groups",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "FumoFriday",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(FumoFriday)$"
+      }
+    },
+    {
+      "name": "WeebPinn",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(WeebPinn)$"
+      }
+    },
+    {
+      "name": "DRiFTKiNG",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(DRiFTKiNG)$"
+      }
+    },
+    {
+      "name": "snk",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(snk)$"
+      }
+    }
+  ]
+}
