@@ -81,10 +81,14 @@ radarr:
     include:
       - template: 2b90e905c99490edc7c7a5787443748b # [German] HD Bluray + WEB
         source: TRASH
-
+        
     cloneQualityProfiles:
       - from: "[German] HD Bluray + WEB"
         to: Anime HD
+
+    quality_profiles:
+      - name: "[German] HD Bluray + WEB"
+        language: Any # The name must match available names in *arr.
 
     custom_formats:
       - trash_ids:
