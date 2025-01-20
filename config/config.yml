@@ -72,3 +72,57 @@ sonarr:
           - name: Anime HD
             score: 40
 
+radarr:
+  instance1:
+    # Set the URL/API Key to your actual instance
+    base_url: http://your-radarr-instance:port
+    api_key: !secret RADARR_API_KEY
+
+    include:
+      - template: 2b90e905c99490edc7c7a5787443748b # [German] HD Bluray + WEB
+        source: TRASH
+
+    cloneQualityProfiles:
+      - from: "[German] HD Bluray + WEB"
+        to: Anime HD
+
+    custom_formats:
+      - trash_ids:
+        - 4eadb75fb23d09dfc0a8e3f687e72287 # Not German or English
+        - cae4ca30163749b891686f95532519bd # AV1
+        - dc98083864ea246d05a42df0d05f81cc # x265 (HD)
+        # Streaming Services
+        - b3b3a6ac74ecbd56bcdbefa4799fb9df # AMZN
+        - 40e9380490e748672c2522eaaeb692f7 # ATVP
+        - 84272245b2988854bfb76a16e60baea5 # DSNP
+        - 509e5f41146e278f9eab1ddaceb34515 # HBO
+        - 5763d1b0ce84aff3b21038eea8e9b8ad # HMAX
+        - 526d445d4c16214309f0fd2b3be18a89 # Hulu
+        - e0ec9672be6cac914ffad34a6b077209 # iT
+        - 6a061313d22e51e0f25b7cd4dc065233 # MAX
+        - 170b1d363bd8516fbf3a3eb05d4faff6 # NF
+        - c9fd353f8f5f1baf56dc601c4cb29920 # PCOK
+        - e36a0ba1bc902b26ee40818a1d59b8bd # PMTP
+        - c2863d2a50c9acad1fb50e53ece60817 # STAN
+        assign_scores_to:
+          - name: Anime HD
+            score: 0
+
+      - trash_ids:
+          - anime-gersub
+          - anime-engsub
+          - anime-multisub
+          - german-subbed
+          - lang-not-eng-ger-jpn
+          - lang-only-jpn
+          - german-anime-groups
+        assign_scores_to:
+          - name: Anime HD
+      
+      # Prefer English/Japanese Dual Audio over German Subs only
+      - trash_ids:
+          - 4a3b087eea2ce012fcc1ce319259a3be # Dual Audio
+        assign_scores_to:
+          - name: Anime HD
+            score: 40
+
