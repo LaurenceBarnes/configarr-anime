@@ -49,6 +49,7 @@ sonarr:
           - german-subbed
           - lang-not-eng-ger-jpn
           - lang-only-jpn
+          - german-anime-groups
           # Anime Streaming Services
           - 3e0b26604165f463f3e8e192261e7284 # CR
           - 1284d18e693de8efe0fe7d6b3e0b9170 # FUNi
