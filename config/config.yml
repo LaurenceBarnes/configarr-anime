@@ -13,6 +13,7 @@ sonarr:
       #- template: dca7e5e9e99c703bcbdaaa471dd40e98 # [German] HD Bluray + WEB
       #  source: TRASH
 
+    custom_formats:
       # Prefer English/Japanese Dual Audio over English Subs only
       - trash_ids:
           - 418f50b10f1907201b6cfdf881f467b7 # Dual Audio
@@ -31,7 +32,8 @@ radarr:
       # Uncomment the following two lines to add the following TRaSH-Guides profile
       #- template: 2b90e905c99490edc7c7a5787443748b # [German] HD Bluray + WEB
       #  source: TRASH
-        
+      
+    custom_formats:    
       # Prefer English/Japanese Dual Audio over German English only
       - trash_ids:
           - 4a3b087eea2ce012fcc1ce319259a3be # Dual Audio
