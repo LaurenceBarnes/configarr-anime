@@ -18,6 +18,7 @@ quality_profiles:
           - Bluray-720p
           - WEBDL-720p
           - WEBRip-720p
+          - DVD
 
 custom_formats:
   - trash_ids:
