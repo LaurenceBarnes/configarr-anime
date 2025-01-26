@@ -37,6 +37,12 @@ sonarr:
           - name: Anime HD
             score: 10
 
+      # If you don't want to allow German Microsized groups (e.g. FuN) comment out the following 4 lines
+      - trash_ids:
+          - 237eda4ef550a97da2c9d87b437e500b # German Microsized
+        assign_scores_to:
+          - name: Anime HD
+
 radarr:
   instance1:
     # Set the URL/API Key to your actual instance
@@ -72,4 +78,10 @@ radarr:
         assign_scores_to:
           - name: Anime HD
             score: 10
+
+      # If you don't want to allow German Microsized groups (e.g. FuN) comment out the following 4 lines
+      - trash_ids:
+          - 03c430f326f10a27a9739b8bc83c30e4 # German Microsized
+        assign_scores_to:
+          - name: Anime HD
 
