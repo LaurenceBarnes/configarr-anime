@@ -1,5 +1,5 @@
 localCustomFormatsPath: /app/config/cfs
-#localConfigTemplatesPath: /app/config/templates
+localConfigTemplatesPath: /app/config/templates
 
 sonarr:
   instance1:
