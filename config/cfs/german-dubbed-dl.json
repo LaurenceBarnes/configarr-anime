@@ -1,0 +1,20 @@
+{
+  "trash_id": "german-dubbed-dl",
+  "trash_scores": {
+    "default": 10000
+  },
+  "trash_description": "Anime with German Dubbed DL in title to counteract negative Dubs only score",
+  "name": "Anime: German Dubbed DL",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "German Dubbed DL",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": "(German|Ger)([\\\\.\\\\-_ ]Dubbed)[\\\\.\\\\-_ ]DL"
+      }
+    }
+  ]
+}

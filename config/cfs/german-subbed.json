@@ -4,7 +4,7 @@
     "default": -10000
   },
   "trash_description": "Counter German.Subbed being detected and scored as German Dub",
-  "name": "German Subbed falsely detected",
+  "name": "German Subbed not Dubbed",
   "includeCustomFormatWhenRenaming": false,
   "specifications": [
     {
