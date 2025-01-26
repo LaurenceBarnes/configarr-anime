@@ -9,6 +9,7 @@ sonarr:
 
     include:
       - template: template-sonarr-anime-german
+      # Uncomment the following two lines to add the following TRaSH-Guides profile
       #- template: dca7e5e9e99c703bcbdaaa471dd40e98 # [German] HD Bluray + WEB
       #  source: TRASH
 
@@ -27,6 +28,7 @@ radarr:
 
     include:
       - template: template-radarr-anime-german
+      # Uncomment the following two lines to add the following TRaSH-Guides profile
       #- template: 2b90e905c99490edc7c7a5787443748b # [German] HD Bluray + WEB
       #  source: TRASH
         
