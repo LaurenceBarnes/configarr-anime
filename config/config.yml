@@ -14,34 +14,35 @@ sonarr:
       #  source: TRASH
 
     custom_formats:
-      # Prefer English/Japanese Dual Audio over English Subs only
+      # Prefer English/Japanese Dual Audio
       - trash_ids:
           - 418f50b10f1907201b6cfdf881f467b7 # Dual Audio
         assign_scores_to:
           - name: Anime HD
-            score: 30
+            #score: 10
+            #score: 101
 
-      # If you don't want to favor Uncensored comment out the following 5 lines
-      # Alternatively, increase the score to e.g. 101 to favor it more
+      # If you want to favor Uncensored uncomment one of the following two score lines
       - trash_ids:
           - 026d5aadd1a6b4e550b134cb6c72b3ca # Uncensored
         assign_scores_to:
           - name: Anime HD
-            score: 10
+            #score: 10
+            #score: 101
       
-      # If you don't want to favor 10bit comment out the following 5 lines
-      # Alternatively, increase the score to e.g. 101 to favor it more
+      # If you want to favor 10bit uncomment on of them the following two score lines
       - trash_ids:
           - b2550eb333d27b75833e25b8c2557b38 # 10bit
         assign_scores_to:
           - name: Anime HD
-            score: 10
+            #score: 10
+            #score: 101
 
-      # If you don't want to allow German Microsized groups (e.g. FuN) comment out the following 4 lines
-      - trash_ids:
-          - 237eda4ef550a97da2c9d87b437e500b # German Microsized
-        assign_scores_to:
-          - name: Anime HD
+      # If you want to allow German Microsized groups (e.g. FuN) uncomment the following 4 lines
+      #- trash_ids:
+      #    - 237eda4ef550a97da2c9d87b437e500b # German Microsized
+      #  assign_scores_to:
+      #    - name: Anime HD
 
 radarr:
   instance1:
@@ -56,32 +57,33 @@ radarr:
       #  source: TRASH
       
     custom_formats:    
-      # Prefer English/Japanese Dual Audio over German English only
+      # If you want to favor English/Japanese Dual Audio uncomment one of the following two score lines
       - trash_ids:
           - 4a3b087eea2ce012fcc1ce319259a3be # Dual Audio
         assign_scores_to:
           - name: Anime HD
-            score: 30
+            #score: 10
+            #score: 101
 
-      # If you don't want to favor Uncensored comment out the following 5 lines
-      # Alternatively, increase the score to e.g. 101 to favor it more
+      # If you want to favor Uncensored uncomment one of the following two score lines
       - trash_ids:
           - 064af5f084a0a24458cc8ecd3220f93f # Uncensored
         assign_scores_to:
           - name: Anime HD
-            score: 10
+            #score: 10
+            #score: 101
       
-      # If you don't want to favor 10bit comment out the following 5 lines
-      # Alternatively, increase the score to e.g. 101 to favor it more
+      # If you want to favor 10bit uncomment on of them the following two score lines
       - trash_ids:
           - a5d148168c4506b55cf53984107c396e # 10bit
         assign_scores_to:
           - name: Anime HD
-            score: 10
+            #score: 10
+            #score: 101
 
-      # If you don't want to allow German Microsized groups (e.g. FuN) comment out the following 4 lines
-      - trash_ids:
-          - 03c430f326f10a27a9739b8bc83c30e4 # German Microsized
-        assign_scores_to:
-          - name: Anime HD
+      # If you want to allow German Microsized groups (e.g. FuN) uncomment the following 4 lines
+      #- trash_ids:
+      #    - 03c430f326f10a27a9739b8bc83c30e4 # German Microsized
+      #  assign_scores_to:
+      #    - name: Anime HD
 
