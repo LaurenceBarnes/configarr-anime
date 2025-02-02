@@ -24,7 +24,6 @@ custom_formats:
   - trash_ids:
       - anime-gersub
       - anime-engsub
-      - german-subbed # counteract German.Subbed being detected as German Language
       - german-dubbed-dl # counteract "Dubs Only"
       - lang-not-eng-ger-jpn
       - german-anime-groups
