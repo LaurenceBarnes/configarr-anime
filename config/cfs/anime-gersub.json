@@ -3,17 +3,17 @@
   "trash_scores": {
     "default": 5000
   },
-  "trash_description": "German (and maybe english) Subtitles",
-  "name": "German Subtitles",
+  "trash_description": "German (and possibly english) Subtitles",
+  "name": "German Subbed",
   "includeCustomFormatWhenRenaming": false,
   "specifications": [
     {
-      "name": "GerSub",
+      "name": "German Subbed",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "(German|Ger)[\\\\.\\\\-_ ]?((English|Eng|Jap)[\\\\.\\\\-_ ]?)?Sub"
+        "value": "(?:[Gg][Ee][Rr]|[Gg]erman)[\\. \\-]?(?:[Ee]ng|[Ee]nglish)?[\\. \\-]?(?:[Ss]ub|[Ss]ubbed)"
       }
     }
   ]
