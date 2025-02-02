@@ -22,7 +22,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "^(DRiFTKiNG)$"
+        "value": "\\b(DRiFTKiNG|DK)\\b"
       }
     },
     {
@@ -41,6 +41,42 @@
       "required": false,
       "fields": {
         "value": "^(GP)$"
+      }
+    },
+    {
+      "name": "MELD",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(MELD)$"
+      }
+    },
+    {
+      "name": "ZeroTwo Anime Alias",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(SkittleChan)$"
+      }
+    },
+    {
+      "name": "Tanuki",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(Tanuki)$"
+      }
+    },
+    {
+      "name": "Stars",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(Stars)$"
       }
     }
   ]
