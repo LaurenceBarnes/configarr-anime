@@ -52,13 +52,6 @@ custom_formats:
       - c99279ee27a154c2f20d1d505cc99e25 # 720p
       - 290078c8b266272a5cc8e251b5e2eb0b # 1080p
 
-      # English HQ Release Groups
-      - d6819cba26b1a6508138d25fb5e32293 # HD Bluray Tier 01
-      - c2216b7b8aa545dc1ce8388c618f8d57 # HD Bluray Tier 02
-      - e6258996055b9fbab7e9cb2f75819294 # WEB Tier 01
-      - 58790d4e2fdcd9733aa7ae68ba2bb503 # WEB Tier 02
-      - d84935abd3f8556dcd51d4f27e22d0a6 # WEB Tier 03
-
       # Misc
       - ec8fa7296b64e8cd390a1600981f3923 # Repack/Proper
       - eb3d5cc0a2be0db205fb823640db6a3c # Repack2
@@ -71,6 +64,13 @@ custom_formats:
       - 23297a736ca77c0fc8e70f8edd7ee56c # Upscaled
       - fbcb31d8dabd2a319072b84fc0b7249c # Extras
       - 15a05bc7c1a36e2b57fd628f8977e2fc # AV1
+      
+      # English HQ Release Groups
+      - d6819cba26b1a6508138d25fb5e32293 # HD Bluray Tier 01
+      - c2216b7b8aa545dc1ce8388c618f8d57 # HD Bluray Tier 02
+      - e6258996055b9fbab7e9cb2f75819294 # WEB Tier 01
+      - 58790d4e2fdcd9733aa7ae68ba2bb503 # WEB Tier 02
+      - d84935abd3f8556dcd51d4f27e22d0a6 # WEB Tier 03
 
       # English Anime CF/Scoring
       - 949c16fe0a8147f50ba82cc2df9411c9 # Anime BD Tier 01 (Top SeaDex Muxers)
