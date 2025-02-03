@@ -1,0 +1,20 @@
+{
+  "trash_id": "radarr-german-anime-scene",
+  "trash_scores": {
+    "default": 1700
+  },
+  "trash_description": "German Anime Scene",
+  "name": "German Anime Scene",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "ONiGiRi",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(ONiGiRi)$"
+      }
+    }
+  ]
+}

@@ -23,10 +23,12 @@ quality_profiles:
 custom_formats:
   - trash_ids:
       - anime-gersub
-      - anime-engsub
       - german-dubbed-dl # counteract "Dubs Only"
       - lang-not-eng-ger-jpn
-      - german-anime-groups
+      - radarr-german-anime-bluray-tier-01
+      - radarr-german-anime-bluray-tier-02
+      - radarr-german-anime-web-tier-01
+      - radarr-german-anime-web-tier-02
 
       # German Audio
       - 86bc3115eb4e9873ac96904a4a68e19e # German
