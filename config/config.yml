@@ -38,11 +38,12 @@ sonarr:
             #score: 10
             #score: 101
 
-      # If you want to allow German Microsized groups (e.g. FuN) uncomment the following 4 lines
+      # If you want to allow German Microsized groups (e.g. FuN) uncomment the following 5 lines
       #- trash_ids:
       #    - 237eda4ef550a97da2c9d87b437e500b # German Microsized
       #  assign_scores_to:
       #    - name: Anime HD
+      #      score: 0
 
 radarr:
   instance1:
@@ -81,9 +82,10 @@ radarr:
             #score: 10
             #score: 101
 
-      # If you want to allow German Microsized groups (e.g. FuN) uncomment the following 4 lines
+      # If you want to allow German Microsized groups (e.g. FuN) uncomment the following 5 lines
       #- trash_ids:
       #    - 03c430f326f10a27a9739b8bc83c30e4 # German Microsized
       #  assign_scores_to:
       #    - name: Anime HD
+      #      score: 0
 
