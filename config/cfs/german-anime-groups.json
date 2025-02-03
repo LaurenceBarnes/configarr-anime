@@ -69,15 +69,6 @@
       "fields": {
         "value": "^(Tanuki)$"
       }
-    },
-    {
-      "name": "Stars",
-      "implementation": "ReleaseGroupSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": "^(Stars)$"
-      }
     }
   ]
 }
