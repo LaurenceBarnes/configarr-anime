@@ -29,6 +29,7 @@ custom_formats:
       - sonarr-german-anime-bluray-tier-02
       - sonarr-german-anime-web-tier-01
       - sonarr-german-anime-web-tier-02
+      - radarr-german-anime-scene
 
       # German Audio
       - 8a9fcdbb445f2add0505926df3bb7b8a # German
@@ -37,13 +38,13 @@ custom_formats:
       #- 133589380b89f8f8394320901529bac1 # Not German or English
 
       # German HQ Release Groups
-      - 7940b2fb0278f27cf4f70187f2be95d6 # German Bluray Tier 01
-      - 83b336a90d90d6b35ca673b007f80661 # German Bluray Tier 02
-      - d8f8e1539827967e0e564833e6c08d33 # German Bluray Tier 03
-      - 68be37323132b35cf333c81a2ac8fc16 # German Web Tier 01
-      - f51b96a50b0e6196cb69724b7833d837 # German Web Tier 02
-      - bda67c2c0aae257308a4723d92475b86 # German Web Tier 03
-      - c2eec878fa1989599c226ce4c287d6a7 # German Scene
+      #- 7940b2fb0278f27cf4f70187f2be95d6 # German Bluray Tier 01
+      #- 83b336a90d90d6b35ca673b007f80661 # German Bluray Tier 02
+      #- d8f8e1539827967e0e564833e6c08d33 # German Bluray Tier 03
+      #- 68be37323132b35cf333c81a2ac8fc16 # German Web Tier 01
+      #- f51b96a50b0e6196cb69724b7833d837 # German Web Tier 02
+      #- bda67c2c0aae257308a4723d92475b86 # German Web Tier 03
+      #- c2eec878fa1989599c226ce4c287d6a7 # German Scene
 
       # German Unwanted
       - a6a6c33d057406aaad978a6902823c35 # German LQ
