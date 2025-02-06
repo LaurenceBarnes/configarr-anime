@@ -8,6 +8,15 @@
   "includeCustomFormatWhenRenaming": false,
   "specifications": [
     {
+      "name": "ABJ",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(ABJ)$"
+      }
+    },
+    {
       "name": "DRiFTKiNG",
       "implementation": "ReleaseGroupSpecification",
       "negate": false,

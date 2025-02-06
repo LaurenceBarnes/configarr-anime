@@ -17,6 +17,15 @@
       }
     },
     {
+      "name": "CNY",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(CNY)$"
+      }
+    },
+    {
       "name": "FumoFriday",
       "implementation": "ReleaseGroupSpecification",
       "negate": false,
