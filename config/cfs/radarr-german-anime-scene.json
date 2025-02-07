@@ -15,6 +15,15 @@
       "fields": {
         "value": "^(ONiGiRi)$"
       }
+    },
+    {
+      "name": "STARS",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(STARS)$"
+      }
     }
   ]
 }
