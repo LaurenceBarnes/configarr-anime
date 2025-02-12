@@ -23,7 +23,7 @@ quality_profiles:
 custom_formats:
   - trash_ids:
       - anime-gersub
-      - german-dubbed-dl # counteract "Dubs Only"
+      #- german-dubbed-dl # counteract "Dubs Only"
       - lang-not-eng-ger-jpn
       - sonarr-german-anime-bluray-tier-01
       - sonarr-german-anime-bluray-tier-02
@@ -35,16 +35,6 @@ custom_formats:
       - 8a9fcdbb445f2add0505926df3bb7b8a # German
       - ed51973a811f51985f14e2f6f290e47a # German DL
       - c5dd0fd675f85487ad5bdf97159180bd # German DL (undefined)
-      #- 133589380b89f8f8394320901529bac1 # Not German or English
-
-      # German HQ Release Groups
-      #- 7940b2fb0278f27cf4f70187f2be95d6 # German Bluray Tier 01
-      #- 83b336a90d90d6b35ca673b007f80661 # German Bluray Tier 02
-      #- d8f8e1539827967e0e564833e6c08d33 # German Bluray Tier 03
-      #- 68be37323132b35cf333c81a2ac8fc16 # German Web Tier 01
-      #- f51b96a50b0e6196cb69724b7833d837 # German Web Tier 02
-      #- bda67c2c0aae257308a4723d92475b86 # German Web Tier 03
-      #- c2eec878fa1989599c226ce4c287d6a7 # German Scene
 
       # German Unwanted
       - a6a6c33d057406aaad978a6902823c35 # German LQ
@@ -92,7 +82,7 @@ custom_formats:
       - dc262f88d74c651b12e9d90b39f6c753 # Anime Web Tier 06 (FanSubs)
       - e3515e519f3b1360cbfc17651944354c # Anime LQ Groups
       - b4a1b3d705159cdca36d71e57ca86871 # Anime Raws
-      - 9c14d194486c4014d422adc64092d794 # Dubs Only
+      #- 9c14d194486c4014d422adc64092d794 # Dubs Only
       - d2d7b8a9d39413da5f44054080e028a3 # v0
       - 273bd326df95955e1b6c26527d1df89b # v1
       - 228b8ee9aa0a609463efca874524a6b8 # v2
